@@ -1,0 +1,252 @@
+/*---------------------------------------------
+Template Name: Landing Concept
+Template URL: 
+Description: 
+Author: 
+Author URL:
+Version: 1.6.0
+
+===============================================   
+STYLESHEET INDEXING
+|
+|___ Default Styles
+|	|___ Variables
+|	|___ Custom
+|	|___ Reset Styels
+|	|___ Typography
+|	|___ Forms Styles
+|	|___ Helper Classes 
+|
+|___ Elements Styles
+|	|___ Back To Top
+|	|___ Breadcrumb
+|	|___ Button
+|	|___ Pagination 
+|	|___ Section Heading
+|	|___ Slick 
+|
+|___Template Styles
+|	|___ Header-layout
+|	|___ Banner
+|	|___ Brand
+|	|___ Call To Action
+|	|___ Case Study
+|	|___ Contact
+|	|___ Counter Up
+|	|___ FAQ
+|	|___ Pricing
+|	|___ Process
+|	|___ Project
+|	|___ Service
+|	|___ Team
+|	|___ Testimonial
+|	|___  Why Choose
+|	|___  404 Error
+|
+|___Blocks Styles
+|	|___ Header Styles
+|	|___ Blog Styles
+|	|___ Footer Styles
+|
+|___Dark Style
+|
+|___Spacing
+|
+|___ END STYLESHEET INDEXING
+
+--------------------------------------------*/
+
+/*=======================================================================
+1. Default Styles
+=========================================================================*/
+@import "default/classes";
+@import "default/variable";
+@import "default/custom";
+@import "default/form";
+@import "default/mixin";
+@import "default/reset";
+@import "default/spacing";
+@import "default/typography";
+
+/*=======================================================================
+2. Elements Styles
+=========================================================================*/
+@import "elements/back-top";
+@import "elements/breadcrumb";
+@import "elements/button";
+@import "elements/button2";
+@import "elements/button3";
+@import "elements/button4";
+@import "elements/saas-buttons";
+@import "elements/digital-btn";
+@import "elements/button-slide";
+@import "elements/pagination";
+@import "elements/section-heading";
+@import "elements/slick";
+@import "elements/cursor";
+/*=======================================================================
+3. Template Styles
+=========================================================================*/
+/*=======================================================================
+4.Blocks Styles 
+=========================================================================*/
+// Start up
+// @import "header/header-layout";
+// @import "template/banner4";
+// @import "template/banner";
+// @import "template/brands";
+// @import "template/tax-experts";
+// @import "template/pos-system";
+// @import "template/cash-flow";
+// @import "template/recent-articles";
+// @import "template/events";
+// @import "template/project-ideas";
+// @import "template/strategies";
+// @import "footer/footer";
+// @import "footer/footer-bottom";
+
+// Business Page Styles
+// @import "header/header-layout-2";
+// @import "template/banner2";
+// @import "template/know-customers";
+// @import "template/payment";
+// @import "template/customers";
+// @import "template/know-customers-2.scss";
+// @import "template/customers-saying.scss";
+// @import "template/latest-blog.scss";
+// @import "footer/footer2";
+// @import "footer/footer-bottom2";
+
+// e-learning page Styles
+// @import "header/header-layout-3";
+// @import "template/banner3";
+// @import "template/students-support";
+// @import "template/mentorship";
+// @import "template/skills-knowledge";
+// @import "template/students-engaged";
+// @import "template/course-enrollment";
+// @import "template/clients-review";
+// @import "footer/footer3";
+
+// Tech AI Page styles
+// @import "header/header-layout-5";
+// @import "template/banner5";
+// @import "template/tech-brands";
+// @import "template/tech-about";
+// @import "template/tech-security";
+// @import "template/ai-solution";
+// @import "template/ui-ux";
+// @import "template/about-product";
+// @import "template/clients-testimonial";
+// @import "template/chatbot";
+// @import "footer/tech-footer";
+
+// SAAS Landing Page
+// @import "header/header-top-6";
+// @import "header/header-layout-6";
+// @import "template/banner6";
+// @import "template/core-hr";
+// @import "template/optimize-time";
+// @import "template/empower-employee";
+// @import "template/scale";
+// @import "template/empower-employee2";
+// @import "template/asked-questions";
+// @import "template/trusted-by";
+
+// @import "footer/saas-footer";
+// @import "footer/saas-footer-bottom";
+
+// Digital Agency Page
+@import "header/header-layout-7";
+@import "template/banner7";
+@import "template/banner-slide";
+@import "template/provide-service";
+@import "template/best-services";
+@import "template/marketing-seo";
+@import "template/digital-testimonial";
+@import "template/marketing-seo-2";
+// @import "template/digital-cards";
+// @import "template/discuss-project";
+@import "footer/digital-footer";
+@import "footer/digital-footer-bottom";
+
+// Contact Us Page
+// @import "header/header-layout-2";
+// @import "template/contact-us";
+// @import "footer/footer2";
+// @import "footer/footer-bottom2";
+
+// About Us Page
+// @import "header/header-layout-2";
+// @import "template/about-us";
+// @import "footer/footer2";
+// @import "footer/footer-bottom2";
+
+// Blog detail  Page
+// @import "header/header-layout-2";
+// @import "template/blog-detail";
+// @import "footer/footer2";
+// @import "footer/footer-bottom2";
+
+// Blog Page
+// @import "header/header-layout-2";
+// @import "template/blog";
+// @import "footer/footer2";
+// @import "footer/footer-bottom2";
+
+// Team detail Page
+// @import "header/header-layout-2";
+// @import "template/team-detail";
+// @import "footer/footer2";
+// @import "footer/footer-bottom2";
+
+// Team detail Page
+// @import "header/header-layout-2";
+// @import "template/teams";
+// @import "footer/footer2";
+// @import "footer/footer-bottom2";
+
+// Portfolio detail  Page
+// @import "header/header-layout-2";
+// @import "template/portfolio";
+// @import "footer/footer2";
+// @import "footer/footer-bottom2";
+
+// Portfolio-2 detail  Page
+// @import "header/header-layout-2";
+// @import "template/portfolio-2";
+// @import "footer/footer2";
+// @import "footer/footer-bottom2";
+
+// Service detail Page
+@import "header/header-layout-2";
+@import "template/service-details";
+@import "footer/footer2";
+@import "footer/footer-bottom2";
+
+// Price detail Page
+// @import "header/header-layout-2";
+// @import "template/price-details";
+// @import "footer/footer2";
+// @import "footer/footer-bottom2";
+
+// Register Page
+// @import "header/header-layout-2";
+// @import "template/register";
+// @import "footer/footer2";
+// @import "footer/footer-bottom2";
+
+// slick-custom
+@import "template/slick-custom";
+
+//  Not found Page
+@import "template/page404";
+
+/*=======================================================================
+5. Dark Style 
+=========================================================================*/
+/*=======================================================================
+6. Spacing 
+=========================================================================*/
+@import "default/spacing";
+

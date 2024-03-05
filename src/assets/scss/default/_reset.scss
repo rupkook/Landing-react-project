@@ -1,0 +1,149 @@
+/*-------------------------
+    Reset Styels
+-------------------------*/
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: var(--color-secondary);
+}
+
+a,
+a:hover {
+  display: inline-block;
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+ul,
+li {
+  display: inline-block;
+  text-decoration: none;
+}
+/*-------------------------
+    Reset Styels
+-------------------------*/
+a {
+  display: inline-block;
+  text-decoration: none;
+  transition: var(--transition);
+  color: black;
+}
+span {
+  display: inline-block;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+ul.list-style,
+ol.list-style {
+  margin: -10px 0;
+  li {
+    margin: 0px 0;
+    &::marker {
+      color: var(--color-primary);
+    }
+  }
+}
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+  margin-bottom: 0;
+}
+
+/* Height and width */
+.fullscreen {
+  min-height: 100vh;
+  width: 100%;
+}
+
+.saas--container {
+  max-width: 1290px;
+  margin: 0 auto;
+}
+.digital--container {
+  max-width: 1710px;
+  margin: 0 auto;
+}
+.tech--container {
+  max-width: 1530px;
+  margin: 0 auto;
+}
+.container--width {
+  max-width: 1410px;
+  margin: 0 auto;
+}
+
+.price--plan {
+  max-width: 990px;
+  margin: 0 auto;
+}
+
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* 2xl */
+@media (max-width: 1535.98px) {
+  .container {
+    max-width: 1399.98px;
+  }
+}
+
+/* xl */
+@media (max-width: 1399.98px) {
+  .container {
+    max-width: 1199.98px;
+  }
+}
+
+/* lg */
+@media (max-width: 1199.98px) {
+  .container {
+    max-width: 991.98px;
+  }
+}
+
+/* md */
+@media (max-width: 991.98px) {
+  .container {
+    max-width: 767.98px;
+  }
+}
+
+/* sm */
+@media (max-width: 767.98px) {
+  .container {
+    max-width: 575.98px;
+  }
+}
+
+/* xs */
+@media (max-width: 575.98px) {
+  .container {
+    max-width: 475.98px;
+  }
+}
+/* sm mobile */
+@media (max-width: 475.98px) {
+  .container {
+    width: 100%;
+  }
+}

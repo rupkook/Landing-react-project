@@ -1,0 +1,199 @@
+/*-------------------------
+    Variables
+-------------------------*/
+
+:root {
+  // Color
+  --landing-page-color: #c6f5ff;
+  --landing-btn: #5ad2ed;
+  --landing-text-color: #12141d;
+
+  --business-page-color: #f3f7fe;
+  --business-page-color2: #d7dffc;
+  --business-btn-color: #3e64ff;
+  --business-btn2-color: #193bc5;
+  --business-text-color: #090a0c;
+  --business-footer: #18181b;
+
+  --learning-page-color: #f2eefc;
+  --navbar-item-color: #100e0e;
+  --learning-review-card: #c4c4c4;
+  --learning-review-bg: #f2eefc;
+  --learning-text-dark: #12141d;
+
+  --tech-primary-color: #ab9aff;
+  --tech-primary-btn: #8f7cee;
+  --tech-primary-bg: #d7cffe;
+  --tech-section-bg: #f6f5ff;
+  --tech-text-color: #181818;
+
+  --saas-primary-color: #3b58eb;
+  --saas-btn-color: #f14736;
+  --saas-text-color: #181818;
+  --saas-bg-color: #e0faf4;
+
+  --digital-primary-color: #b9e901;
+  --digital-primary-btn: #99ea48;
+  --digital-text-color: #101218;
+  --digital-text-secondary: #2a2a2a;
+
+  --contact-text-color: #1c1c1d;
+  --contact-text-light: #414242;
+
+  --text-color-black: #101218;
+  --text-color-black2: #1c1c1d;
+  --text-color-light: #6b7074;
+  --text-color-light2: #838489;
+  --text-color-light3: #6a6a6a;
+  --text-purple: #8f7cf6;
+  --bg-light: #fafafa;
+  --text-orange: #ff3d00;
+  --text-grey: #414242;
+  --grey-bg: #f4f4f2;
+  --color-grey: #cecece;
+  --text-color-blue: #3e64ff;
+
+  --color-primary: #0d2126;
+  --color-learning-primary: #7a48df;
+  --learning-page-footer: #bdb1f7;
+  --learning-btn-color: #5720c6;
+  --learning-subtitle: #4732ba;
+  --learning-golden-color: #e59819;
+  --color-secondary: #fff;
+  --color-soft-peach: #efefef;
+  --color-icon: #777777;
+  --color-background: #f0f0f0;
+  --color-cloudy-grey: #6c6768;
+  --color-hover-gray: #c5c5c5;
+  --color-hover2: #e79804;
+  --color-border: #d9d9d9;
+  --active-color: #175cff;
+  --product-color1: #1e73be;
+  --product-color2: #736751;
+  --product-color3: #c0c0c0;
+  --product-color4: #05ac92;
+  --product-color5: #dc9814;
+  --product-border2: #cccccc;
+  --color-primary-green: #a5d300;
+  --text-light: #696969;
+
+  --color-white: #ffffff;
+  --color-black: #12141d;
+  --color-black2: #090a0c;
+  --color-black3: #000;
+  --color-light: #ecf2f6;
+  --color-dark: #27272e;
+  --color-text-dark: #292930;
+  --color-accent1: #ffdc60;
+  --color-accent2: #fab8c4;
+
+  --color-blue-shade: #6865ff;
+  --color-link: #2522ba;
+  --color-mabel: #dbf8ff;
+  --color-fog: #dbdeff;
+  --color-pink-shade: #ffd3db;
+  --color-peach: #ffeddc;
+  --color-rose: #c75c6f;
+
+  --color-chart1: #896ba7;
+  --color-chart2: #badeff;
+
+  --color-body: #525260;
+  --color-gray-1: #757589;
+  --color-gray-2: #999fae;
+  --color-gray-3: #999ab8;
+  --color-gray-4: #99a1aa;
+  --color-ship-gray: #42424a;
+  --color-ghost: #c7c7d5;
+  --color-mercury: #e5e5e5;
+
+  // Gradient Color
+  --gradient-primary: linear-gradient(
+    90deg,
+    #ecf2f6 0%,
+    rgba(236, 242, 246, 0) 70.31%
+  );
+  --gradient-blue: linear-gradient(145.92deg, #5956e9 20.18%, #9991ff 76.9%);
+  --gradient-accent: linear-gradient(180deg, #fab8c4 0%, #ffedf0 100%);
+  --gradient-white: linear-gradient(
+    266.3deg,
+    rgba(236, 242, 246, 0) 7.84%,
+    #ecf2f6 29.1%,
+    rgba(236, 242, 246, 0) 64.32%
+  );
+  --gradient-dark: linear-gradient(180deg, #27272e 0%, #303035 100%);
+
+  --text-dark: #1c1c1d;
+
+  // Gradient Color
+
+  //Font Family
+  
+  --font-inter: "Inter", sans-serif;
+  --font-archivo: "Archivo", sans-serif;
+  --font-syne: "Syne", sans-serif;
+  --font-poppins: "Poppins", sans-serif;
+
+  // Border
+  --border-light: 1px solid #e3e6e9;
+  --border-lighter: 1px solid #ecf2f6;
+  --border-dark: 1px solid var(--color-ship-gray);
+  --border-gray: 1px solid var(--color-gray-4);
+
+  //Font Family
+  --font-primary: "Inter", sans-serif;
+  --font-secondary: "Archivo", sans-serif;
+  --font-awesome: "Font Awesome 5 Pro";
+
+  // Transition
+  --transition: all 0.3s ease-in-out;
+
+  //Fonts Size
+  --font-body-1: 20px;
+  --font-body-2: 18px;
+  --font-body-3: 16px;
+  --font-body-4: 14px;
+
+  // Line Height
+  --line-height-b1: 1.5;
+  --line-height-b3: 1.1;
+
+  // Heading Font
+  --h1: 64px;
+  --h2: 54px;
+  --h3: 54px;
+  --h4: 36px;
+  --h5: 34px;
+  --h6: 24px;
+}
+
+// Layouts Variation
+$xxxl-device: "only screen and (max-width: 1759.98px)"; //1537
+$xxl-device: "only screen and (max-width: 1535.98px)"; // 1401
+$extra-device: "only screen and (max-width: 1399.98px)"; //1201
+$lg-layout: "only screen  and (max-width: 1199.98px)"; //993
+$md-layout: "only screen and (max-width: 991.98px)"; // 769
+$sm-layout: "only screen and (max-width: 767.98px)"; //577
+$extra-sm: "only screen and (max-width: 575.98px)"; //477
+$sm-mobile: "only screen and (max-width: 475.98px)"; //377
+$xs-mobile: "only screen and (max-width: 375.98px)"; //320
+
+// Responsive Template
+
+// @media #{$xxxl-device} {}
+
+// @media #{$xxl-device} {}
+
+// @media #{$extra-device} {}
+
+// @media #{$lg-layout} {}
+
+// @media #{$md-layout} {}
+
+// @media #{$sm-layout} {}
+
+// @media #{$extra-sm} {}
+
+// @media #{$sm-mobile} {}
+
+// @media #{$xs-mobile} {}

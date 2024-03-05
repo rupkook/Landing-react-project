@@ -1,0 +1,135 @@
+.footer3 {
+  background: var(--gray-900, #18181b);
+  color: #ffffff;
+
+  margin-top: 300px;
+
+  // padding: 100px 0;
+  padding-bottom: 40px;
+
+  .title {
+    font-family: var(--font-archivo);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 44px;
+
+    color: var(--color-dark);
+
+    @media #{$extra-device} {
+    }
+    @media #{$extra-device} {
+    }
+    @media #{$md-layout} {
+      font-size: 30px;
+    }
+    @media #{$sm-layout} {
+      br {
+        display: none;
+      }
+    }
+  }
+
+  .sub-title {
+    font-family: var(--font-inter);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 10px 0;
+
+    @media #{$sm-layout} {
+      br {
+        display: none;
+      }
+    }
+  }
+
+  .footer3-top-container {
+    width: 90%;
+    position: relative;
+  }
+  .footer3-top {
+    margin-top: -190px;
+    padding: 60px 100px;
+    background: var(--learning-page-footer);
+
+    z-index: 0;
+    @media #{$sm-layout} {
+      padding: 60px 10px;
+    }
+  }
+
+  .footer-left-vector {
+    z-index: 1;
+    position: absolute;
+    margin-top: -340px;
+    margin-left: 10px;
+
+    @media #{$extra-device} {
+      margin-top: -360px;
+      margin-left: 10px;
+    }
+
+    @media #{$lg-layout} {
+      margin-top: -360px;
+      margin-left: 10px;
+      img {
+        width: 70%;
+      }
+    }
+
+    @media #{$md-layout} {
+      display: none;
+    }
+  }
+  .footer-right-vector {
+    z-index: 1;
+    position: absolute;
+    margin-top: -280px;
+    margin-left: 780px;
+
+    @media #{$extra-device} {
+      margin-top: -290px;
+      margin-left: 760px;
+    }
+
+    @media #{$lg-layout} {
+      margin-top: -250px;
+      margin-left: 580px;
+      img {
+        width: 80%;
+      }
+    }
+
+    @media #{$md-layout} {
+      display: none;
+    }
+  }
+
+  .footer3-right {
+    margin-top: 60px;
+
+    ul {
+      li {
+        margin: 5px 0;
+        transition: all 0.1s;
+        a {
+          color: #ffffff;
+          font-size: 14px;
+        }
+        a:hover {
+          color: var(--color-learning-primary);
+        }
+      }
+
+      .footer-subtitle {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 28px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}

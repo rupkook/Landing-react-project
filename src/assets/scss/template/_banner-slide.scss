@@ -1,0 +1,84 @@
+.banner-slide {
+  background: var(--digital-primary-color);
+
+  font-family: var(--font-syne);
+  padding: 10px 0px;
+  margin-top: 70px;
+
+  .col {
+    transition: all 0.2s;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-wrapper {
+    transition-timing-function: linear !important;
+  }
+
+  .swiper-slide {
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+    margin-right: 40px;
+
+    @media #{$sm-layout} {
+      margin-right: 10px;
+    }
+
+    @media #{$xs-mobile} {
+      margin-right: 10px;
+    }
+
+    a {
+      &:hover {
+        color: var(--digital-text-secondary);
+      }
+    }
+
+    .title {
+      font-size: 36px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 46px;
+      text-transform: capitalize;
+      margin-right: 80px;
+
+      @media #{$xxxl-device} {
+        font-size: 29px;
+        line-height: 39px;
+      }
+
+      @media #{$xxl-device} {
+        font-size: 25px;
+        line-height: 39px;
+      }
+      @media #{$extra-device} {
+        margin-right: 30px;
+      }
+
+      @media #{$sm-mobile} {
+        font-size: 17px;
+        line-height: 27px;
+      }
+
+      @media #{$xs-mobile} {
+        font-size: 16px;
+        line-height: 26px;
+        margin-right: 10px;
+      }
+    }
+  }
+
+  .swiper {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

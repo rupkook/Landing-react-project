@@ -1,0 +1,279 @@
+.tech-footer {
+  font-family: var(--font-syne);
+  margin-bottom: 50px;
+
+  .container {
+    background: var(--color-black3);
+    color: var(--color-white);
+    padding: 100px 100px 50px 100px;
+    border-radius: 20px;
+
+    @media #{$sm-mobile} {
+      padding: 40px 20px 40px 20px;
+    }
+
+    .footer-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      @media #{$md-layout} {
+        flex-direction: column;
+        gap: 20px;
+      }
+      @media #{$sm-layout} {
+        flex-direction: column;
+      }
+
+      .footer-title {
+        text-align: center;
+        margin-left: 6px;
+
+        font-family: var(--font-archivo);
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        color: var(--color-white);
+
+        @media #{$sm-mobile} {
+          margin-left: 0px;
+          font-size: 18px;
+        }
+
+        @media #{$xs-mobile} {
+        }
+      }
+
+      .top-right {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        gap: 38px;
+
+        @media #{$sm-layout} {
+          flex-direction: column;
+        }
+
+        span {
+          font-size: 22px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+
+          @media #{$sm-layout} {
+            font-size: 18px;
+          }
+        }
+      }
+    }
+
+    .footer-mid {
+      margin-bottom: 50px;
+
+      .newsletter {
+        text-align: start;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .newsletter-title {
+          font-size: 22px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          letter-spacing: -0.3px;
+          margin-bottom: 50px;
+
+          @media #{$sm-layout} {
+            margin-bottom: 0px;
+          }
+        }
+        .newsletter-input {
+          display: flex;
+
+          .input-group {
+            background: var(--color-black3);
+            display: flex;
+            box-shadow: none;
+
+            border-radius: 0px;
+
+            height: 72px;
+            padding: 10px 10px 10px 55px;
+
+            border-bottom: 1px solid rgba(177, 177, 178, 0.511);
+
+            @media #{$md-layout} {
+              // width: 570px;
+            }
+
+            @media #{$sm-layout} {
+              // width: 380px;
+            }
+
+            @media #{$extra-sm} {
+            }
+
+            @media #{$sm-mobile} {
+            }
+
+            @media #{$xs-mobile} {
+            }
+
+            > :not(:first-child) {
+              margin-left: 14px;
+              margin-right: -10px;
+              margin-bottom: -5px;
+              border: none;
+              border-top-left-radius: 10px;
+              border-top-right-radius: 10px;
+              padding: 0 28px;
+
+              @media #{$sm-layout} {
+                margin-top: 10px;
+                height: 100%;
+              }
+            }
+
+            input {
+              text-align: start;
+              color: var(--color-white);
+              margin-left: -70px;
+              margin-right: 0px;
+
+              @media #{$sm-layout} {
+                margin-left: -104px;
+              }
+            }
+
+            // button {
+            //   margin-left: 14px;
+            //   margin-right: -10px;
+            //   margin-bottom: -5px;
+            //   border: none;
+            //   border-top-left-radius: 10px;
+            //   border-top-right-radius: 10px;
+            // }
+          }
+
+          // placeholder color change
+          ::placeholder {
+            /* Chrome, Firefox, Opera, Safari 10.1+ */
+            color: var(--color-white);
+            font-size: 15px;
+
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: -0.205px;
+            text-align: start;
+            left: 0;
+            opacity: 0.5;
+          }
+
+          :-ms-input-placeholder {
+            /* Internet Explorer 10-11 */
+            color: var(--color-white);
+          }
+
+          ::-ms-input-placeholder {
+            /* Microsoft Edge */
+            color: var(--color-white);
+          }
+        }
+
+        .tech-footer-btn {
+          background: var(--tech-primary-color);
+        }
+      }
+
+      .mid-right {
+        .items {
+          display: flex;
+          flex-direction: column;
+          gap: 16px;
+
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 26px;
+
+          li {
+            a {
+              color: var(--color-white);
+            }
+            &:hover {
+              color: #ffd2dd;
+            }
+          }
+
+          .items-title {
+            color: #ffd2dd;
+
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            margin-bottom: 20px;
+          }
+        }
+      }
+    }
+
+    .tech-footer-bottom {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      @media #{$sm-layout} {
+        flex-direction: column;
+        gap: 30px;
+        align-items: flex-start;
+      }
+
+      .left-section {
+        gap: 96px;
+
+        @media #{$xxl-device} {
+          gap: 65px;
+        }
+        @media #{$extra-device} {
+          gap: 96px;
+        }
+
+        @media #{$md-layout} {
+          gap: 20px;
+        }
+        @media #{$extra-sm} {
+          flex-direction: column;
+        }
+
+        a {
+          color: var(--color-white);
+          font-size: 15px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          letter-spacing: -0.205px;
+        }
+      }
+
+      .right-section {
+        display: flex;
+        gap: 40px;
+        align-items: center;
+        justify-content: space-between;
+
+        .fb {
+          fill: #000;
+          transition: fill 0.2s;
+
+          &:hover {
+            fill: #3b5998;
+          }
+        }
+      }
+    }
+  }
+}

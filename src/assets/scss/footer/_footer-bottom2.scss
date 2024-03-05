@@ -1,0 +1,16 @@
+.footer-bottom-2 {
+  background: #27272a;
+  color: #fff;
+  padding: 1rem 0;
+  // height: fit-content;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  .copyright {
+    font-family: var(--font-inter);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+  }
+}
