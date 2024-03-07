@@ -9,6 +9,8 @@ import BestServices from '../../components/bestServices/BestServices';
 import MarketingSeo from '../../components/marketingSeo/MarketingSeo';
 import MarketingSeo2 from '../../components/marketingSeo2/MarketingSeo2';
 import DigitalTestimonial from '../../components/digitalTestimonial/DigitalTestimonial';
+import DigitalCards from '../../components/digitalCards/DigitalCards';
+import DiscussProject from '../../components/discussProject/DiscussProject';
 
 
 
@@ -24,6 +26,8 @@ const Home1 = () => {
             <MarketingSeo/>
             <DigitalTestimonial/>
             <MarketingSeo2/>
+            <DigitalCards/>
+            <DiscussProject/>
             <Footer1/>
             <Footerbottom1/>
         </div>

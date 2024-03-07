@@ -1,0 +1,109 @@
+.discuss-project {
+  color: var(--digital-text-color);
+  font-family: var(--font-archivo);
+
+  .section-items {
+    background: var(--digital-primary-color);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 260px;
+
+    @media #{$extra-device} {
+      padding: 100px 120px;
+    }
+
+    @media #{$lg-layout} {
+      padding: 80px;
+    }
+
+    @media #{$md-layout} {
+      padding: 60px;
+    }
+    @media #{$sm-layout} {
+      padding: 40px;
+    }
+    @media #{$sm-mobile} {
+      padding: 20px;
+    }
+
+    .title {
+      text-align: center;
+      color: #000;
+
+      font-size: 94px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 100px;
+
+      @media #{$xxl-device} {
+        font-size: 92px;
+      }
+
+      @media #{$extra-device} {
+        br {
+          display: none;
+        }
+      }
+
+      @media #{$lg-layout} {
+        font-size: 88px;
+      }
+
+      @media #{$md-layout} {
+        font-size: 67px;
+        line-height: 77px;
+      }
+
+      @media #{$sm-layout} {
+        font-size: 46px;
+        line-height: 56px;
+      }
+
+      @media #{$extra-sm} {
+        font-size: 40px;
+        line-height: 48px;
+      }
+
+      @media #{$sm-mobile} {
+        font-size: 33px;
+        line-height: 36px;
+      }
+
+      @media #{$xs-mobile} {
+        font-size: 27px;
+        line-height: 32px;
+      }
+
+      .btn-fill-dark {
+        &::after {
+          content: "";
+          height: 300px;
+          width: 300px;
+          background-color: var(--color-ship-gray);
+          border-radius: 50%;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translateY(-50%) translateX(-50%) scale(0);
+          transition: 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+          z-index: -1;
+        }
+        &:hover {
+          background-color: var(--color-ship-gray);
+          color: var(--color-white);
+
+          &::after {
+            transform: translateY(-50%) translateX(-50%) scale(1);
+          }
+        }
+      }
+    }
+
+    .btn-fill-dark {
+      margin-top: 50px;
+    }
+  }
+}
