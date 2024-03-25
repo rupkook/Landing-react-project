@@ -1,4 +1,3 @@
-
 .digital-testimonial {
   font-family: var(--font-inter);
 
@@ -7,25 +6,26 @@
     border-radius: 16px;
     position: relative;
     z-index: 0;
-
+    height: 874px;
     .bg-icon {
       position: absolute;
       z-index: 1;
-      margin-top: 130px;
-      padding-left: 1450px;
+      margin-top: 50px;
+      padding-left: 1412px;
 
-      @media #{$xxxl-device} {
-        margin-left: 1250px;
+      @media only screen and (max-width: 1759.98px) {
+        margin-left: 1400px;
       }
 
-      @media #{$xxl-device} {
-        margin-left: 1250px;
+      @media only screen and (max-width: 1535.98px) {
+        margin-left: 1105px;
       }
 
-      @media #{$extra-device} {
+      @media only screen and (max-width: 1399.98px) {
+        margin-left: 912px;
       }
 
-      @media #{$lg-layout} {
+      @media only screen and (max-width: 1199.98px) {
         display: none;
       }
     }
@@ -33,20 +33,20 @@
     .slick-slider {
       position: relative;
       z-index: 0;
-      padding: 100px;
+      padding: 49px 50px 0px 40px;
 
-      @media #{$lg-layout} {
+      @media only screen and (max-width: 1199.98px) {
         padding: 70px;
       }
 
-      @media #{$extra-sm} {
+      @media only screen and (max-width: 575.98px) {
         padding: 16px;
       }
     }
 
     /* the slides */
     .slick-slide {
-      margin: 0 5px;
+      margin: 0 10px;
     }
     /* the parent */
     .slick-list {
@@ -83,100 +83,100 @@
     }
 
     .slick-prev {
-      // background-image: url('/images/digital-icons/digital-testimonial-right.png');
+      // background-image: url("../media/digital-icons/digital-testimonial-right.png");
       background-position: center;
 
       /* place button top right */
-      margin-top: 453px;
-      margin-left: 702px;
+      margin-top: -159px;
+      margin-left: 869px;
 
-      @media #{$xxxl-device} {
-        margin-left: 630px;
-        margin-top: 480px;
+      @media only screen and (max-width: 1759.98px) {
+        margin-left: 706px;
+        margin-top: 453px;
       }
 
-      @media #{$xxl-device} {
+      @media only screen and (max-width: 1535.98px) {
         margin-left: 572px;
       }
 
-      @media #{$extra-device} {
+      @media only screen and (max-width: 1399.98px) {
         margin-top: 380px;
-        margin-left: 448px;
+        margin-left: 456px;
       }
 
-      @media #{$lg-layout} {
+      @media only screen and (max-width: 1199.98px) {
         margin-top: 333px;
-        margin-left: 385px;
+        margin-left: 392px;
       }
 
-      @media #{$md-layout} {
+      @media only screen and (max-width: 991.98px) {
         margin-top: 927px;
-        margin-left: 35px;
+        margin-left: 15px;
       }
 
-      @media #{$sm-layout} {
-        margin-top: 814px;
+      @media only screen and (max-width: 767.98px) {
+        margin-top: 806px;
         margin-left: 18px;
       }
-      @media #{$extra-sm} {
-        margin-top: 786px;
-        margin-left: 18px;
+      @media only screen and (max-width: 575.98px) {
+        margin-top: 791px;
+        margin-left: 182px;
       }
       @media #{$sm-mobile} {
-        margin-top: 728px;
-        margin-left: 18px;
+        margin-top: 770px;
+        margin-left: 170px;
       }
 
-      @media #{$xs-mobile} {
-        margin-top: 689px;
+      @media only screen and (max-width: 375.98px) {
+        margin-top: 704px;
         margin-left: 18px;
       }
     }
     .slick-next {
-      // background-image: url('/images/digital-icons/digital-testimonial-left.png');
+      // background-image: url("../media/digital-icons/digital-testimonial-left.png");
       background-position: center;
 
       /* place button bottom right */
-      margin-top: -177px;
-      margin-left: 755px;
+      margin-top: -158px;
+      margin-right: 750px;
 
-      @media #{$xxxl-device} {
-        margin-top: -127px;
-        margin-left: 688px;
+      @media only screen and (max-width: 1759.98px) {
+        margin-top: -177px;
+        margin-left: 758px;
       }
 
-      @media #{$xxl-device} {
-        margin-top: -82px;
+      @media only screen and (max-width: 1535.98px) {
+        margin-top: -102px;
         margin-left: 625px;
       }
 
-      @media #{$extra-device} {
+      @media only screen and (max-width: 1399.98px) {
         margin-top: -77px;
-        margin-left: 510px;
+        margin-left: 504px;
       }
 
-      @media #{$lg-layout} {
-        margin-top: -51px;
-        margin-left: 433px;
+      @media only screen and (max-width: 1199.98px) {
+        margin-top: -50px;
+        margin-left: 442px;
       }
-      @media #{$md-layout} {
-        margin-top: -19px;
-        margin-left: 85px;
+      @media only screen and (max-width: 991.98px) {
+        margin-top: -21px;
+        margin-left: 64px;
       }
-      @media #{$sm-layout} {
+      @media only screen and (max-width: 767.98px) {
         margin-top: -18px;
-        margin-left: 60px;
+        margin-left: 66px;
       }
-      @media #{$extra-sm} {
+      @media only screen and (max-width: 575.98px) {
         margin-top: -46px;
-        margin-left: 68px;
+        margin-left: 234px;
       }
       @media #{$sm-mobile} {
         margin-top: -46px;
-        margin-left: 68px;
+        margin-left: 218px;
       }
 
-      @media #{$xs-mobile} {
+      @media only screen and (max-width: 375.98px) {
         margin-top: -46px;
         margin-left: 68px;
       }
@@ -209,7 +209,7 @@
       color: var(--color-white);
       padding: 0px 20px;
 
-      @media #{$sm-layout} {
+      @media only screen and (max-width: 767.98px) {
         padding: 0px 0px;
       }
 
@@ -217,13 +217,19 @@
         margin-left: 40px;
         margin-top: 60px;
 
-        @media #{$extra-device} {
+        @media only screen and (max-width: 1399.98px) {
           margin-left: 0px;
           margin-top: 0px;
         }
 
-        @media #{$md-layout} {
+        @media only screen and (max-width: 991.98px) {
           margin-top: 10px;
+          margin-left: -20px;
+        }
+
+        @media only screen and (max-width: 575.98px) {
+          margin-left: 0px;
+          margin-top: 14px;
         }
 
         .name {
@@ -258,7 +264,7 @@
           opacity: 0.7;
           margin-bottom: 70px;
 
-          @media #{$extra-device} {
+          @media only screen and (max-width: 1399.98px) {
             font-size: 16px;
             line-height: 26px;
           }

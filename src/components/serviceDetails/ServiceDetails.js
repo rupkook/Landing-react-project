@@ -27,11 +27,11 @@ const ServiceDetails = () => {
                 <div className="col-12 col-lg-4">
                     <div className="d-flex align-items-center justify-content-between">
                         <div className="title">
-                            <Link href="#"> Digital Marketing</Link>
+                            <Link > Digital Marketing</Link>
                         </div>
 
                         <div className="icon">
-                            <Link href="#">
+                            <Link >
                                 <img
                                     src="./images/service-detail/service-detail-3.png"
                                     alt="img"
@@ -44,11 +44,11 @@ const ServiceDetails = () => {
 
                     <div className="d-flex align-items-center justify-content-between">
                     <div className="title">
-                        <Link href="#">UX/UI Design</Link>
+                        <Link >UX/UI Design</Link>
                     </div>
 
                     <div className="icon">
-                        <Link href="#">
+                        <Link >
                         <img
                             src="./images/service-detail/service-detail-3.png"
                             alt="img"
@@ -60,11 +60,11 @@ const ServiceDetails = () => {
 
                     <div className="d-flex align-items-center justify-content-between">
                     <div className="title">
-                        <Link href="#"> Web Design</Link>
+                        <Link > Web Design</Link>
                     </div>
 
                     <div className="icon">
-                        <Link href="#">
+                        <Link >
                         <img
                             src="./images/service-detail/service-detail-3.png"
                             alt="img"
@@ -76,11 +76,11 @@ const ServiceDetails = () => {
 
                     <div className="d-flex align-items-center justify-content-between">
                     <div className="title">
-                        <Link href="#"> Digital Analysis</Link>
+                        <Link > Digital Analysis</Link>
                     </div>
 
                     <div className="icon">
-                        <Link href="#">
+                        <Link >
                         <img
                             src="./images/service-detail/service-detail-3.png"
                             alt="img"
@@ -92,11 +92,11 @@ const ServiceDetails = () => {
 
                     <div className="d-flex align-items-center justify-content-between">
                     <div className="title">
-                        <Link href="#"> Social Media Marketing</Link>
+                        <Link > Social Media Marketing</Link>
                     </div>
 
                     <div className="icon">
-                        <Link href="#">
+                        <Link >
                         <img
                         src="./images/service-detail/service-detail-3.png"
                         alt="img"
@@ -108,11 +108,11 @@ const ServiceDetails = () => {
 
                     <div className="d-flex align-items-center justify-content-between">
                     <div className="title">
-                        <Link href="#"> Content Writing</Link>
+                        <Link > Content Writing</Link>
                     </div>
 
                     <div className="icon">
-                        <Link href="#">
+                        <Link >
                         <img
                         src="./images/service-detail/service-detail-3.png"
                         alt="img"
@@ -172,7 +172,7 @@ const ServiceDetails = () => {
                             provides a clear path to measurably improve your website's
                         </p>
 
-                        <Link href="#" className="more-btn">
+                        <Link  className="more-btn">
                             Discover More
                             <span className="ms-3">
                             <svg
@@ -229,7 +229,7 @@ const ServiceDetails = () => {
                             humour.
                         </p>
 
-                        <Link href="#" className="more-btn">
+                        <Link  className="more-btn">
                             Discover More
                             <span className="ms-3">
                             <svg
@@ -286,7 +286,7 @@ const ServiceDetails = () => {
                             leaves over tenderloin. Wrap prosciutto around tenderloin and sage,
                         </p>
 
-                        <Link href="#" className="more-btn">
+                        <Link  className="more-btn">
                             Discover More
                             <span className="ms-3">
                                 <svg

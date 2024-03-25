@@ -1,0 +1,79 @@
+.students-support {
+  font-family: var(--font-archivo);
+  color: var(--learning-text-dark);
+
+  .title {
+    color: var(--learning-text-dark);
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 66px;
+
+    @media only screen and (max-width: 767.98px) {
+      font-size: 44px;
+
+      line-height: 54px;
+
+      margin-bottom: 0px;
+    }
+
+    @media only screen and (max-width: 575.98px) {
+      font-size: 37px;
+      line-height: 47px;
+    }
+
+    @media #{$sm-mobile} {
+      font-size: 29px;
+      line-height: 39px;
+    }
+
+    @media only screen and (max-width: 375.98px) {
+      font-size: 24px;
+      line-height: 34px;
+    }
+  }
+
+  .sub-title {
+    text-align: center;
+
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    margin-bottom: 20px;
+  }
+  .card-desc {
+    text-align: center;
+    font-family: Noto Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    width: 98%;
+
+    margin-bottom: 30px;
+  }
+
+  .card {
+    // width: 450px;
+    // height: 280px;
+
+    transition: all 0.2s;
+    background: #f9f9ff;
+    border: none;
+
+    border-radius: 8px;
+  }
+
+  .card:hover {
+    cursor: pointer;
+    box-shadow: 2px 4px 22px 0px rgba(204, 204, 219, 0.38);
+    transition: all;
+    transition-duration: 0.3s;
+  }
+
+  .card-img {
+    height: 6rem;
+    width: 6rem;
+  }
+}

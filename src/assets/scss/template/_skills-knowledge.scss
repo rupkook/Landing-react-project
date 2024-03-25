@@ -1,0 +1,147 @@
+.skills-knowledge {
+  font-family: var(--font-archivo);
+  margin-top: -160px;
+
+  .container {
+    background: #000;
+    border-radius: 20px;
+    color: var(--color-white);
+
+    padding: 100px 100px;
+
+    @media only screen and (max-width: 575.98px) {
+      padding: 40px;
+    }
+
+    @media #{$sm-mobile} {
+      padding: 40px 10px;
+    }
+
+    .title {
+      font-size: 56px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 66px;
+      text-transform: capitalize;
+      color: var(--color-white);
+
+      margin-bottom: 60px;
+
+      @media only screen and (max-width: 1399.98px) {
+        font-size: 52px;
+        line-height: 62px;
+      }
+      @media only screen and (max-width: 991.98px) {
+        font-size: 37px;
+        line-height: normal;
+      }
+      @media only screen and (max-width: 767.98px) {
+        font-size: 29px;
+      }
+      @media only screen and (max-width: 575.98px) {
+        font-size: 26px;
+      }
+      @media #{$sm-mobile} {
+        font-size: 24px;
+      }
+    }
+
+    .button-position {
+      margin-top: 10px;
+      margin-left: 24px;
+    }
+
+    .sub-title {
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      text-transform: capitalize;
+      margin-top: 20px;
+      margin-bottom: 12px;
+      color: var(--color-white);
+
+      @media only screen and (max-width: 1399.98px) {
+        width: 80%;
+        font-size: 16px;
+      }
+      @media only screen and (max-width: 991.98px) {
+        font-size: 22px;
+        line-height: 32px;
+      }
+
+      @media only screen and (max-width: 767.98px) {
+        font-size: 18px;
+        line-height: 28px;
+      }
+
+      @media only screen and (max-width: 575.98px) {
+      }
+
+      @media #{$sm-mobile} {
+      }
+
+      @media only screen and (max-width: 375.98px) {
+      }
+
+      &:hover {
+        color: #cccccc;
+        cursor: pointer;
+      }
+    }
+
+    .sub-title-2 {
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 26px; /* 162.5% */
+      text-transform: capitalize;
+      // margin-bottom: 4px;
+      color: var(--color-white);
+      margin-top: -25px;
+
+      @media only screen and (max-width: 1399.98px) {
+        width: 80%;
+        font-size: 16px;
+      }
+      @media only screen and (max-width: 991.98px) {
+        font-size: 16px;
+      }
+
+      &:hover {
+        color: #cccccc;
+        cursor: pointer;
+      }
+    }
+
+    .card {
+      background: #000;
+    }
+
+    .card-desc {
+      gap: 10px;
+
+      .rating {
+        color: var(--learning-golden-color);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 26px; /* 162.5% */
+        text-transform: capitalize;
+      }
+      .total {
+        color: var(--learning-review-card);
+        font-family: Noto Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 26px; /* 162.5% */
+        text-transform: capitalize;
+      }
+    }
+
+    .card-star {
+      margin-bottom: 4px;
+    }
+  }
+}

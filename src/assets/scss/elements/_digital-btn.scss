@@ -7,7 +7,7 @@
   font-weight: 500;
   line-height: 30px; /* 150% */
   text-transform: capitalize;
-
+  text-decoration: none;
   padding: 12px 40px;
 
   text-align: center;
@@ -245,7 +245,7 @@
 
   &.btn-large {
     padding: 23px 55px;
-    @media #{$md-layout} {
+    @media only screen and (max-width: 991.98px) {
       padding: 18px 35px;
     }
   }

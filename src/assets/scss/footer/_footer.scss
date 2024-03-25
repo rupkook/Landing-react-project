@@ -11,7 +11,7 @@
   padding-bottom: 60px;
   margin-bottom: -1px;
 
-  @media #{$md-layout} {
+  @media only screen and (max-width: 991.98px) {
     padding-top: 60px;
     padding-bottom: 30px;
   }
@@ -33,7 +33,7 @@
     line-height: 24px;
     margin-bottom: 40px;
 
-    @media #{$md-layout} {
+    @media only screen and (max-width: 991.98px) {
       br {
         display: none;
       }
@@ -117,7 +117,7 @@
           color: #ffffff;
           font-size: 16px;
 
-          @media #{$extra-device} {
+          @media only screen and (max-width: 1399.98px) {
             font-size: 15px;
           }
         }

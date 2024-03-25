@@ -10,7 +10,7 @@
 
   padding: 100px 10px;
 
-  @media #{$md-layout} {
+  @media only screen and (max-width: 991.98px) {
     padding: 40px 10px;
   }
 
@@ -21,21 +21,21 @@
 
     color: var(--color-white);
 
-    @media #{$extra-device} {
+    @media only screen and (max-width: 1399.98px) {
       font-size: 35px;
       margin-top: 30px;
     }
-    @media #{$extra-device} {
+    @media only screen and (max-width: 1399.98px) {
       font-size: 30px;
       margin-top: 20px;
     }
-    @media #{$md-layout} {
+    @media only screen and (max-width: 991.98px) {
       br {
         display: none;
       }
       font-size: 28px;
     }
-    @media #{$sm-layout} {
+    @media only screen and (max-width: 767.98px) {
       font-size: 28px;
     }
   }
@@ -48,10 +48,10 @@
     opacity: 0.7;
     color: var(--color-white);
 
-    @media #{$extra-device} {
+    @media only screen and (max-width: 1399.98px) {
       font-size: 16px;
     }
-    @media #{$md-layout} {
+    @media only screen and (max-width: 991.98px) {
       br {
         display: none;
       }
@@ -63,7 +63,7 @@
     margin-top: -300px;
     padding: 50px 0;
 
-    @media #{$md-layout} {
+    @media only screen and (max-width: 991.98px) {
       padding: 40px 10px;
     }
   }

@@ -1,0 +1,236 @@
+.optimize-time {
+  font-family: var(--font-archivo);
+
+  color: var(--saas-text-color);
+  margin-top: -150px;
+
+  @media only screen and (max-width: 1399.98px) {
+    margin-top: -100px;
+  }
+
+  .title {
+    color: var(--saas-text-color);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 58px;
+    margin-bottom: 10px;
+
+    @media #{$sm-mobile} {
+      font-size: 40px;
+      line-height: 50px;
+    }
+  }
+
+  .desc {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+
+    margin-bottom: 20px;
+  }
+
+  .left-section {
+    margin-top: 100px;
+
+    @media only screen and (max-width: 1399.98px) {
+      margin-top: 30px;
+    }
+
+    @media only screen and (max-width: 1199.98px) {
+      margin-top: 0px;
+    }
+
+    a {
+      color: var(--saas-primary-color);
+
+      &:hover {
+        color: var(--saas-btn-color);
+      }
+    }
+
+    .bg-color {
+      margin-top: 30px;
+      border-radius: 16px;
+      background: #f5f7fa;
+
+      display: flex;
+
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      width: 80%;
+
+      span {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 26px;
+        padding: 20px 10px;
+        width: 86%;
+      }
+    }
+  }
+
+  .right-section {
+    margin-top: 30px;
+    @media only screen and (max-width: 1399.98px) {
+      margin-top: -50px;
+    }
+
+    @media only screen and (max-width: 575.98px) {
+      margin-top: 0px;
+    }
+
+    position: relative;
+    z-index: 0;
+
+    // display: flex;
+
+    .thumb-left {
+      position: absolute;
+      z-index: 1;
+
+      border-radius: 10px;
+
+      box-shadow: 0px 16px 24px 0px rgba(127, 132, 141, 0.16);
+      margin-top: 250px;
+      margin-left: 23px;
+
+      @media #{xxl-device} {
+        img {
+          width: 90%;
+        }
+        margin-top: 271px;
+        margin-left: 5px;
+      }
+
+      @media only screen and (max-width: 1399.98px) {
+        img {
+          width: 80%;
+        }
+        margin-top: 280px;
+        margin-left: 5px;
+      }
+
+      @media only screen and (max-width: 1199.98px) {
+        img {
+          width: 70%;
+        }
+        margin-top: 280px;
+        margin-left: -30px;
+      }
+
+      @media only screen and (max-width: 991.98px) {
+        img {
+          width: 100%;
+        }
+        margin-top: 244px;
+        margin-left: 33px;
+      }
+
+      @media only screen and (max-width: 767.98px) {
+        img {
+          width: 65%;
+        }
+        margin-top: 198px;
+        margin-left: 39px;
+      }
+
+      @media only screen and (max-width: 575.98px) {
+        img {
+          width: 50%;
+        }
+        margin-top: 127px;
+        margin-left: 0px;
+      }
+
+      @media #{$sm-mobile} {
+      }
+
+      @media only screen and (max-width: 375.98px) {
+        margin-top: 190px;
+      }
+    }
+
+    .thumb-base {
+      position: relative;
+      z-index: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      @media only screen and (max-width: 767.98px) {
+        img {
+          width: 50%;
+        }
+      }
+
+      @media #{$sm-mobile} {
+        img {
+          width: 80%;
+        }
+      }
+    }
+
+    .thumb-right {
+      position: absolute;
+      z-index: 1;
+
+      border-radius: 9.289px;
+
+      margin-top: 212px;
+      margin-left: 450px;
+
+      @media only screen and (max-width: 1535.98px) {
+        margin-left: 430px;
+      }
+
+      @media only screen and (max-width: 1399.98px) {
+        margin-left: 348px;
+      }
+
+      @media only screen and (max-width: 1199.98px) {
+        margin-left: 323px;
+      }
+
+      @media only screen and (max-width: 991.98px) {
+        margin-left: 470px;
+        margin-top: 205px;
+      }
+
+      @media only screen and (max-width: 767.98px) {
+        img {
+          width: 80%;
+        }
+        margin-left: 350px;
+        margin-top: 140px;
+      }
+
+      @media only screen and (max-width: 575.98px) {
+        img {
+          width: 70%;
+        }
+        margin-left: 288px;
+        margin-top: 105px;
+      }
+
+      @media #{$sm-mobile} {
+        img {
+          width: 70%;
+        }
+        margin-left: 288px;
+        margin-top: 105px;
+      }
+
+      @media only screen and (max-width: 375.98px) {
+        img {
+          width: 86%;
+        }
+        margin-left: 177px;
+        margin-top: 148px;
+      }
+    }
+  }
+}

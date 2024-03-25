@@ -2,7 +2,7 @@
   color: var(--digital-text-color);
   font-family: var(--font-archivo);
 
-  .container {
+  .soe2-container {
     .top-section {
       .title {
         font-family: var(--font-archivo);
@@ -13,34 +13,44 @@
         text-transform: capitalize;
         width: 110%;
 
-        @media #{$xxxl-device} {
+        @media only screen and (max-width: 1759.98px) {
           font-size: 53px;
           line-height: 63px;
         }
 
-        @media #{$xxl-device} {
+        @media only screen and (max-width: 1535.98px) {
           width: 110%;
         }
 
-        @media #{$extra-device} {
+        @media only screen and (max-width: 1399.98px) {
           width: 100%;
           font-size: 46px;
           line-height: 56px;
         }
 
-        @media #{$md-layout} {
-          font-size: 43px;
-          line-height: 53px;
+        @media only screen and (max-width: 1199.98px) {
+          font-size: 39px;
         }
 
-        @media #{$extra-sm} {
+        @media only screen and (max-width: 991.98px) {
           font-size: 37px;
           line-height: 47px;
+          margin-bottom: 10px;
+        }
+        @media only screen and (max-width: 767.98px) {
+          font-size: 32px;
+          line-height: 42px;
+          margin-bottom: 10px;
         }
 
-        @media #{$xs-mobile} {
-          font-size: 34px;
-          line-height: 44px;
+        @media only screen and (max-width: 575.98px) {
+          font-size: 33px;
+          line-height: 43px;
+        }
+
+        @media only screen and (max-width: 375.98px) {
+          font-size: 26px;
+          line-height: 36px;
         }
       }
 
@@ -50,7 +60,9 @@
         flex-direction: column;
         justify-content: center;
         gap: 20px;
-
+        @media only screen and (max-width: 991.98px) {
+          gap: 30px;
+        }
         .desc {
           color: var(--digital-text-secondary);
           font-size: 20px;
@@ -59,7 +71,11 @@
           line-height: 30px; /* 150% */
           text-transform: capitalize;
 
-          @media #{$sm-layout} {
+          @media only screen and (max-width: 1199.98px) {
+            font-size: 18px;
+          }
+
+          @media only screen and (max-width: 767.98px) {
             font: 16px;
             line-height: 26px;
           }

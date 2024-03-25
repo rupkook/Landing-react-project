@@ -1,11 +1,13 @@
 .digital-footer-bottom {
-  .container {
+  .footer-container {
     margin-top: 100px;
     border-top: 1px solid rgba(162, 157, 157, 0.2);
     padding: 40px 0px;
     font-family: var(--font-inter);
     color: var(--digital-text-footer);
-
+    @media only screen and (max-width: 991.98px) {
+      margin-top: 50px;
+    }
     .left-section {
       ul {
         display: flex;
@@ -13,15 +15,15 @@
         align-items: center;
         gap: 20px;
 
-        @media #{$lg-layout} {
+        @media only screen and (max-width: 1199.98px) {
           gap: 15px;
         }
 
-        @media #{$md-layout} {
+        @media only screen and (max-width: 991.98px) {
           justify-content: center;
         }
 
-        @media #{$extra-sm} {
+        @media only screen and (max-width: 575.98px) {
           gap: 10px;
         }
 
@@ -33,6 +35,7 @@
 
           a {
             color: var(--digital-text-footer);
+            text-decoration: none;
 
             &:hover {
               color: var(--digital-text-color);
@@ -46,7 +49,7 @@
       ul {
         gap: 40px;
 
-        @media #{$xs-mobile} {
+        @media only screen and (max-width: 375.98px) {
           gap: 18px;
         }
 

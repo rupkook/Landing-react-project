@@ -4,7 +4,7 @@ Pagination
 .pagination {
   margin-top: 80px;
   width: 100%;
-  @media #{$md-layout} {
+  @media only screen and (max-width: 991.98px) {
     margin-top: 45px;
   }
   ul {
@@ -15,12 +15,12 @@ Pagination
     align-items: center;
     margin: -3px;
     padding: 0;
-    @media #{$sm-layout} {
+    @media only screen and (max-width: 767.98px) {
       margin: -2px;
     }
     li {
       margin: 3px;
-      @media #{$sm-layout} {
+      @media only screen and (max-width: 767.98px) {
         margin: 2px;
       }
       a {
@@ -44,7 +44,7 @@ Pagination
           color: #ffffff;
           border-color: var(--color-primary);
         }
-        @media #{$sm-layout} {
+        @media only screen and (max-width: 767.98px) {
           line-height: 35px;
           min-width: 35px;
           padding: 0 10px;

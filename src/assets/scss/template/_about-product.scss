@@ -1,0 +1,51 @@
+.about-product {
+  font-family: var(--font-syne);
+  color: var(--tech-text-color);
+  margin-top: 100px;
+
+  .bg-color {
+    background: var(--tech-primary-bg);
+    padding: 0px 5px;
+    border-radius: 15px;
+
+    line-height: 58px;
+  }
+  .title {
+    margin-bottom: 24px;
+    color: var(--color-black3);
+
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 58px;
+
+    @media #{$sm-mobile} {
+      font-size: 36px;
+      line-height: 46px;
+    }
+
+    @media only screen and (max-width: 375.98px) {
+      font-size: 34px;
+      line-height: 44px;
+    }
+  }
+
+  .desc {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 20px;
+
+    @media only screen and (max-width: 1399.98px) {
+      font-size: 17px;
+      line-height: 22px;
+    }
+
+    @media only screen and (max-width: 991.98px) {
+      text-align: center;
+    }
+    @media only screen and (max-width: 575.98px) {
+    }
+  }
+}

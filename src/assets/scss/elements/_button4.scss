@@ -69,12 +69,12 @@
     width: fit-content;
     transition: all 0.3s ease-in;
 
-    @media #{$md-layout} {
+    @media only screen and (max-width: 991.98px) {
       font-size: 14px;
       padding: 4px 8px;
     }
 
-    @media #{$sm-mobile} {
+    @media only screen and (max-width: 475.98px) {
       font-size: 12px;
       padding: 2px 4px;
     }
@@ -216,7 +216,7 @@
   }
   &.btn-large {
     padding: 23px 55px;
-    @media #{$md-layout} {
+    @media only screen and (max-width: 991.98px) {
       padding: 18px 35px;
     }
   }
@@ -344,7 +344,7 @@
     overflow: hidden;
     border-radius: 50px;
 
-    @media #{$extra-sm} {
+    @media only screen and (max-width: 575.98px) {
       max-width: 120px;
       height: 30px;
       font-size: 8px;
@@ -401,7 +401,7 @@
       text-align: center;
       transition: transform 0.5s ease;
 
-      @media #{$extra-sm} {
+      @media only screen and (max-width: 575.98px) {
         top: -5px;
         left: 0px;
       }

@@ -17,11 +17,11 @@
       justify-content: space-between;
       align-items: center;
 
-      @media #{$md-layout} {
+      @media only screen and (max-width: 991.98px) {
         flex-direction: column;
         gap: 20px;
       }
-      @media #{$sm-layout} {
+      @media only screen and (max-width: 767.98px) {
         flex-direction: column;
       }
 
@@ -41,7 +41,7 @@
           font-size: 18px;
         }
 
-        @media #{$xs-mobile} {
+        @media only screen and (max-width: 375.98px) {
         }
       }
 
@@ -51,7 +51,7 @@
         align-items: center;
         gap: 38px;
 
-        @media #{$sm-layout} {
+        @media only screen and (max-width: 767.98px) {
           flex-direction: column;
         }
 
@@ -61,7 +61,7 @@
           font-weight: 400;
           line-height: normal;
 
-          @media #{$sm-layout} {
+          @media only screen and (max-width: 767.98px) {
             font-size: 18px;
           }
         }
@@ -85,7 +85,7 @@
           letter-spacing: -0.3px;
           margin-bottom: 50px;
 
-          @media #{$sm-layout} {
+          @media only screen and (max-width: 767.98px) {
             margin-bottom: 0px;
           }
         }
@@ -104,21 +104,21 @@
 
             border-bottom: 1px solid rgba(177, 177, 178, 0.511);
 
-            @media #{$md-layout} {
+            @media only screen and (max-width: 991.98px) {
               // width: 570px;
             }
 
-            @media #{$sm-layout} {
+            @media only screen and (max-width: 767.98px) {
               // width: 380px;
             }
 
-            @media #{$extra-sm} {
+            @media only screen and (max-width: 575.98px) {
             }
 
             @media #{$sm-mobile} {
             }
 
-            @media #{$xs-mobile} {
+            @media only screen and (max-width: 375.98px) {
             }
 
             > :not(:first-child) {
@@ -130,7 +130,7 @@
               border-top-right-radius: 10px;
               padding: 0 28px;
 
-              @media #{$sm-layout} {
+              @media only screen and (max-width: 767.98px) {
                 margin-top: 10px;
                 height: 100%;
               }
@@ -142,7 +142,7 @@
               margin-left: -70px;
               margin-right: 0px;
 
-              @media #{$sm-layout} {
+              @media only screen and (max-width: 767.98px) {
                 margin-left: -104px;
               }
             }
@@ -226,7 +226,7 @@
       align-items: center;
       justify-content: space-between;
 
-      @media #{$sm-layout} {
+      @media only screen and (max-width: 767.98px) {
         flex-direction: column;
         gap: 30px;
         align-items: flex-start;
@@ -235,17 +235,17 @@
       .left-section {
         gap: 96px;
 
-        @media #{$xxl-device} {
+        @media only screen and (max-width: 1535.98px) {
           gap: 65px;
         }
-        @media #{$extra-device} {
+        @media only screen and (max-width: 1399.98px) {
           gap: 96px;
         }
 
-        @media #{$md-layout} {
+        @media only screen and (max-width: 991.98px) {
           gap: 20px;
         }
-        @media #{$extra-sm} {
+        @media only screen and (max-width: 575.98px) {
           flex-direction: column;
         }
 

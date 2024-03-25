@@ -11,7 +11,7 @@
     align-items: center;
     justify-content: space-between;
     margin: -18px 0px;
-    // @media #{$md-layout} {
+    // @media only screen and (max-width: 991.98px) {
     //   margin: 0px 0px;
     // }
     .header-logo {
@@ -32,10 +32,10 @@
         display: none;
       }
       img {
-        @media #{$extra-device} {
+        @media only screen and (max-width: 1399.98px) {
           width: 22px;
         }
-        @media #{$md-layout} {
+        @media only screen and (max-width: 991.98px) {
           width: 25px;
         }
       }
@@ -50,10 +50,10 @@
     .header-main-nav {
       flex: 1;
       margin: 0 55px 0 50px;
-      @media #{$extra-device} {
+      @media only screen and (max-width: 1399.98px) {
         margin: 0 30px;
       }
-      @media #{$md-layout} {
+      @media only screen and (max-width: 991.98px) {
         margin: 0;
       }
     }
@@ -78,10 +78,10 @@
   .lc-mainmenu {
     padding-top: 10px 0px;
     transition: var(--transition);
-    @media #{$extra-device} {
+    @media only screen and (max-width: 1399.98px) {
       padding: 0px 0px;
     }
-    @media #{$extra-device} {
+    @media only screen and (max-width: 1399.98px) {
       padding: 0px 0px;
     }
     &.lc-sticky {
@@ -130,12 +130,12 @@
     margin-right: 230px;
     margin-top: 22px;
 
-    @media #{$lg-layout} {
+    @media only screen and (max-width: 1199.98px) {
       margin-right: 0px;
     }
     > li {
       margin: 0 1px;
-      @media #{$extra-device} {
+      @media only screen and (max-width: 1399.98px) {
         margin: 0 1px;
       }
       > a {
@@ -324,7 +324,7 @@
         justify-content: center;
         flex-direction: column;
         transition: var(--transition);
-        @media #{$md-layout} {
+        @media only screen and (max-width: 991.98px) {
           height: 50px;
           width: 50px;
         }
@@ -365,7 +365,7 @@
       }
     }
     .header-social-link {
-      @media #{$sm-layout} {
+      @media only screen and (max-width: 767.98px) {
         display: none;
       }
     }
@@ -379,7 +379,7 @@
         a {
           font-size: 20px;
           color: var(--color-body);
-          @media #{$md-layout} {
+          @media only screen and (max-width: 991.98px) {
             color: var(--color-dark);
           }
           &:hover {
@@ -395,16 +395,16 @@
           padding: 15px 40px;
         }
       }
-      @media #{$lg-layout} {
+      @media only screen and (max-width: 1199.98px) {
         .lc-btn {
           padding: 15px 25px;
         }
       }
-      @media #{$md-layout} {
+      @media only screen and (max-width: 991.98px) {
         margin-right: 30px;
       }
 
-      @media #{$sm-layout} {
+      @media only screen and (max-width: 767.98px) {
         display: none;
       }
     }
@@ -425,7 +425,7 @@
       line-height: 52px;
       padding: 0;
       text-align: center;
-      @media #{$sm-layout} {
+      @media only screen and (max-width: 767.98px) {
         margin-left: 15px;
       }
       ul {
@@ -461,25 +461,25 @@
     width: 60vw;
     min-width: 300px;
     transition: all 0.8s cubic-bezier(0.77, 0.2, 0.05, 1);
-    @media #{$extra-device} {
+    @media only screen and (max-width: 1399.98px) {
       width: 70vw;
     }
     .offcanvas-header {
       padding: 50px 100px;
-      @media #{$extra-device} {
+      @media only screen and (max-width: 1399.98px) {
         padding: 50px;
       }
-      @media #{$extra-device} {
+      @media only screen and (max-width: 1399.98px) {
         padding: 50px;
       }
-      @media #{$sm-layout} {
+      @media only screen and (max-width: 767.98px) {
         padding: 30px 30px 0;
       }
       .btn-close {
         margin: 0;
         font-size: 22px;
         transition: var(--transition);
-        @media #{$md-layout} {
+        @media only screen and (max-width: 991.98px) {
           font-size: 14px;
         }
         &:hover {
@@ -494,19 +494,19 @@
     }
     .offcanvas-body {
       padding: 50px 100px;
-      @media #{$extra-device} {
+      @media only screen and (max-width: 1399.98px) {
         padding: 50px;
       }
-      @media #{$extra-device} {
+      @media only screen and (max-width: 1399.98px) {
         padding: 50px;
       }
-      @media #{$sm-layout} {
+      @media only screen and (max-width: 767.98px) {
         padding: 30px;
       }
       .side-nav-search-form {
         position: relative;
         margin-bottom: 70px;
-        @media #{$md-layout} {
+        @media only screen and (max-width: 991.98px) {
           margin-bottom: 40px;
         }
         .search-field {
@@ -516,7 +516,7 @@
           border-bottom: 2px solid var(--color-gray-3);
           border-radius: 0;
           padding: 5px 0;
-          @media #{$md-layout} {
+          @media only screen and (max-width: 991.98px) {
             font-size: 20px;
           }
           &:focus {
@@ -536,7 +536,7 @@
             font-size: 24px;
             color: var(--color-gray-4);
             transition: var(--transition);
-            @media #{$md-layout} {
+            @media only screen and (max-width: 991.98px) {
               font-size: 18px;
             }
           }
@@ -550,26 +550,26 @@
       .main-navigation {
         margin: -30px 0;
         margin-top: -45px;
-        @media #{$md-layout} {
+        @media only screen and (max-width: 991.98px) {
           margin-bottom: 40px;
         }
-        @media #{$sm-layout} {
+        @media only screen and (max-width: 767.98px) {
           margin: -20px 0;
           margin-bottom: 40px;
         }
         li {
           margin: 30px 0;
-          @media #{$sm-layout} {
+          @media only screen and (max-width: 767.98px) {
             margin: 20px 0;
           }
           a {
             color: var(--color-dark);
             font-size: 36px;
             font-weight: 500;
-            @media #{$extra-device} {
+            @media only screen and (max-width: 1399.98px) {
               font-size: 24px;
             }
-            @media #{$sm-layout} {
+            @media only screen and (max-width: 767.98px) {
               font-size: 20px;
             }
             &:hover {
@@ -589,13 +589,13 @@
           font-weight: 500;
           display: block;
           margin-bottom: 15px;
-          @media #{$extra-device} {
+          @media only screen and (max-width: 1399.98px) {
             font-size: 16px;
           }
         }
         .address {
           margin-bottom: 40px;
-          @media #{$md-layout} {
+          @media only screen and (max-width: 991.98px) {
             margin-bottom: 25px;
           }
           a {

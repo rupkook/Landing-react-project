@@ -16,14 +16,14 @@
 
     color: var(--color-dark);
 
-    @media #{$extra-device} {
+    @media only screen and (max-width: 1399.98px) {
     }
-    @media #{$extra-device} {
+    @media only screen and (max-width: 1399.98px) {
     }
-    @media #{$md-layout} {
+    @media only screen and (max-width: 991.98px) {
       font-size: 30px;
     }
-    @media #{$sm-layout} {
+    @media only screen and (max-width: 767.98px) {
       br {
         display: none;
       }
@@ -38,7 +38,7 @@
     line-height: 28px;
     margin: 10px 0;
 
-    @media #{$sm-layout} {
+    @media only screen and (max-width: 767.98px) {
       br {
         display: none;
       }
@@ -55,7 +55,7 @@
     background: var(--learning-page-footer);
 
     z-index: 0;
-    @media #{$sm-layout} {
+    @media only screen and (max-width: 767.98px) {
       padding: 60px 10px;
     }
   }
@@ -66,12 +66,12 @@
     margin-top: -340px;
     margin-left: 10px;
 
-    @media #{$extra-device} {
+    @media only screen and (max-width: 1399.98px) {
       margin-top: -360px;
       margin-left: 10px;
     }
 
-    @media #{$lg-layout} {
+    @media only screen and (max-width: 1199.98px) {
       margin-top: -360px;
       margin-left: 10px;
       img {
@@ -79,7 +79,7 @@
       }
     }
 
-    @media #{$md-layout} {
+    @media only screen and (max-width: 991.98px) {
       display: none;
     }
   }
@@ -89,12 +89,12 @@
     margin-top: -280px;
     margin-left: 780px;
 
-    @media #{$extra-device} {
+    @media only screen and (max-width: 1399.98px) {
       margin-top: -290px;
       margin-left: 760px;
     }
 
-    @media #{$lg-layout} {
+    @media only screen and (max-width: 1199.98px) {
       margin-top: -250px;
       margin-left: 580px;
       img {
@@ -102,7 +102,7 @@
       }
     }
 
-    @media #{$md-layout} {
+    @media only screen and (max-width: 991.98px) {
       display: none;
     }
   }

@@ -1,0 +1,67 @@
+.asked-questions {
+  font-family: var(--font-archivo);
+  color: var(--saas-text-color);
+
+  .accordion {
+    // width: 50%;
+    background: transparent;
+    border: none;
+
+    .accordion-item {
+      border: none;
+      background: transparent;
+    }
+    .accordion-item:last-of-type .accordion-button.collapsed {
+      border-bottom-right-radius: 20px;
+      border-bottom-left-radius: 20px;
+    }
+
+    .accordion-button {
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 28px;
+      border-radius: 20px;
+      border: 1px solid var(--shade-border, #cecece);
+      background: #fff;
+      margin: 2rem 0rem;
+      padding: 20px;
+      color: var(--saas-text-color);
+
+      &:focus {
+        color: var(--contact-text-light);
+      }
+    }
+    .accordion-button::after {
+      // background-image: url("../media/saas-icons/accordion-up.png");
+    }
+
+    .accordion-body {
+      border-radius: 20px;
+      border: 1px solid var(--shade-border, #cecece);
+      background: #fff;
+
+      padding: 20px;
+
+      font-family: var(--font-oxygen);
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 28px;
+    }
+  }
+
+  .title {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 58px;
+
+    margin-bottom: -30px;
+
+    @media #{$sm-mobile} {
+      font-size: 40px;
+      line-height: 50px;
+    }
+  }
+}

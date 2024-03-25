@@ -128,7 +128,7 @@
   // Gradient Color
 
   //Font Family
-  
+
   --font-inter: "Inter", sans-serif;
   --font-archivo: "Archivo", sans-serif;
   --font-syne: "Syne", sans-serif;
@@ -141,8 +141,8 @@
   --border-gray: 1px solid var(--color-gray-4);
 
   //Font Family
-  --font-primary: "Inter", sans-serif;
-  --font-secondary: "Archivo", sans-serif;
+  // --font-primary: "Inter", sans-serif;
+  // --font-secondary: "Archivo", sans-serif;
   --font-awesome: "Font Awesome 5 Pro";
 
   // Transition
@@ -180,20 +180,20 @@ $xs-mobile: "only screen and (max-width: 375.98px)"; //320
 
 // Responsive Template
 
-// @media #{$xxxl-device} {}
+// @media only screen and (max-width: 1759.98px) {}
 
-// @media #{$xxl-device} {}
+// @media only screen and (max-width: 1535.98px) {}
 
-// @media #{$extra-device} {}
+// @media only screen and (max-width: 1399.98px) {}
 
-// @media #{$lg-layout} {}
+// @media only screen  and (max-width: 1199.98px) {}
 
-// @media #{$md-layout} {}
+// @media only screen and (max-width: 991.98px) {}
 
-// @media #{$sm-layout} {}
+// @media only screen and (max-width: 767.98px) {}
 
-// @media #{$extra-sm} {}
+// @media only screen and (max-width: 575.98px) {}
 
 // @media #{$sm-mobile} {}
 
-// @media #{$xs-mobile} {}
+// @media only screen and (max-width: 375.98px) {}

@@ -1,0 +1,98 @@
+.recent-articles {
+  background: var(--color-primary);
+  color: var(--color-white);
+  padding: 90px 0px;
+
+  @media only screen and (max-width: 1199.98px) {
+    padding: 40px 0px;
+  }
+
+  font-family: var(--font-inter);
+
+  .title {
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 52px;
+    color: var(--color-white);
+
+    margin-bottom: 60px;
+
+    @media only screen and (max-width: 1199.98px) {
+      margin-bottom: 40px;
+    }
+  }
+
+  .recent-articles-title-2 {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 34px;
+    margin-top: 16px;
+    margin-bottom: 12px;
+    color: var(--color-white);
+
+    @media only screen and (max-width: 1399.98px) {
+      font-size: 20px;
+      line-height: 30px;
+    }
+
+    @media only screen and (max-width: 375.98px) {
+      font-size: 16px;
+      line-height: 26px;
+    }
+  }
+
+  .recent-articles-desc {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 10px;
+  }
+
+  .recent-articles-desc-2 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    width: 89%;
+
+    @media only screen and (max-width: 1399.98px) {
+      width: 100%;
+      font-size: 16px;
+    }
+    @media only screen and (max-width: 991.98px) {
+    }
+  }
+
+  .card {
+    background: var(--color-primary);
+
+    .calendar-icon {
+      color: #fff;
+    }
+
+    .zoom-img {
+      overflow: hidden;
+      border-radius: 16px;
+
+      width: 100%;
+    }
+
+    .zoom-img img {
+      width: 100%;
+      transition: all 0.8s ease-in-out;
+    }
+
+    .zoom-img:hover img {
+      transform: scale(1.1);
+      cursor: pointer;
+    }
+  }
+
+  .recent-articles-card-body {
+    background: var(--color-primary);
+    color: var(--color-secondary);
+  }
+}

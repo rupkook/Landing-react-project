@@ -4,19 +4,44 @@
 
   // padding: 8rem 0;
 
-  @media #{$sm-layout} {
+  @media only screen and (max-width: 767.98px) {
     padding: 0 0;
   }
 
   .left-section {
-    .footer-left-title {
+    .footer-logo {
       font-family: var(--font-archivo);
-      color: var(--saas-text-color);
-      font-size: 20px;
+      font-size: 2.1rem;
       font-style: normal;
       font-weight: 400;
       line-height: normal;
-      margin-left: 6px;
+
+      a {
+        display: block;
+        color: var(--color-black3);
+        text-decoration: none;
+      }
+      .dark-version-logo {
+        display: none;
+      }
+      .sticky-logo {
+        display: none;
+      }
+      img {
+        @media only screen and (max-width: 1399.98px) {
+          width: 2.2rem;
+        }
+        @media only screen and (max-width: 991.98px) {
+          width: 2.5rem;
+        }
+      }
+      .footer-title {
+        font-family: var(--font-archivo);
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
     }
 
     .footer-left-desc {
@@ -29,41 +54,45 @@
       margin-bottom: 30px;
       width: 83%;
 
-      @media #{$xxxl-device} {
+      @media only screen and (max-width: 1759.98px) {
         width: 93%;
       }
-      @media #{$xxl-device} {
+      @media only screen and (max-width: 1535.98px) {
         width: 100%;
       }
-      @media #{$lg-layout} {
+      @media only screen and (max-width: 1199.98px) {
         font-size: 29px;
         line-height: 40px;
       }
-      @media #{$md-layout} {
+      @media only screen and (max-width: 991.98px) {
         width: 60%;
         margin: 20px 0px;
         text-align: center;
-      }
-      @media #{$sm-layout} {
-        width: 80%;
-      }
-      @media #{$extra-sm} {
-        width: 100%;
-      }
-      @media #{$sm-mobile} {
         font-size: 26px;
         line-height: 36px;
       }
+      @media only screen and (max-width: 767.98px) {
+        width: 80%;
+      }
+      @media only screen and (max-width: 575.98px) {
+        width: 100%;
+      }
+      @media #{$sm-mobile} {
+        font-size: 23px;
+        line-height: 33px;
+      }
 
-      @media #{$xs-mobile} {
-        font-size: 22px;
-        line-height: 30px;
+      @media only screen and (max-width: 375.98px) {
+        font-size: 19px;
+        line-height: 29px;
       }
     }
 
     .footer-input-wrapper {
       position: relative;
-
+      @media only screen and (max-width: 991.98px) {
+        margin-bottom: 30px;
+      }
       input {
         background: #fff;
         width: 550px;
@@ -71,28 +100,28 @@
         border-radius: 50px;
         border: 1px solid black;
 
-        @media #{$extra-device} {
+        @media only screen and (max-width: 1399.98px) {
           width: 480px;
         }
 
-        @media #{$lg-layout} {
+        @media only screen and (max-width: 1199.98px) {
           width: 400px;
         }
-        @media #{$md-layout} {
+        @media only screen and (max-width: 991.98px) {
           width: 550px;
         }
-        @media #{$sm-layout} {
+        @media only screen and (max-width: 767.98px) {
           width: 400px;
         }
 
-        @media #{$extra-sm} {
+        @media only screen and (max-width: 575.98px) {
           width: 430px;
         }
         @media #{$sm-mobile} {
           width: 350px;
         }
 
-        @media #{$xs-mobile} {
+        @media only screen and (max-width: 375.98px) {
           width: 310px;
         }
       }
@@ -146,10 +175,10 @@
   }
 
   .right-section {
-    @media #{$md-layout} {
+    @media only screen and (max-width: 991.98px) {
       margin-left: 80px;
     }
-    @media #{$sm-layout} {
+    @media only screen and (max-width: 767.98px) {
       margin-left: 30px;
     }
     .footer-right {
@@ -177,6 +206,7 @@
             font-size: 15px;
             font-style: normal;
             font-weight: 400;
+            text-decoration: none;
           }
           a:hover {
             color: var(--digital-text-color2);

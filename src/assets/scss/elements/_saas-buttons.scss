@@ -13,7 +13,7 @@
   position: relative;
   z-index: 1;
 
-  @media #{$sm-layout} {
+  @media only screen and (max-width: 767.98px) {
     font-size: 10px;
   }
 
@@ -219,7 +219,7 @@
   }
   &.btn-large {
     padding: 23px 55px;
-    @media #{$md-layout} {
+    @media only screen and (max-width: 991.98px) {
       padding: 18px 35px;
     }
   }
@@ -345,7 +345,7 @@
     overflow: hidden;
     border-radius: 50px;
 
-    @media #{$extra-sm} {
+    @media only screen and (max-width: 575.98px) {
       max-width: 120px;
       height: 30px;
       font-size: 8px;
@@ -402,7 +402,7 @@
       text-align: center;
       transition: transform 0.5s ease;
 
-      @media #{$extra-sm} {
+      @media only screen and (max-width: 575.98px) {
         top: -5px;
         left: 0px;
       }

@@ -3,22 +3,21 @@ import { Link } from 'react-router-dom';
 
 const DiscussProject = () => {
     return (
-        <section class="discuss-project section--spacing">
-            <div class=" digital--container">
-                <div class="section-items">
-                <h2 class="title">
+        <section className="discuss-project section--spacing">
+            <div className=" digital--container">
+                <div className="section-items">
+                <h2 className="title">
                     Ready to discuss <br />
                     your project with us?
                 </h2>
 
-                <Link href="#" class="digital-btn btn-fill-dark">
+                <Link  className="digital-btn btn-fill-dark">
                     Get Started
                     <img src="./images/digital-icons/arrow-1.svg" alt="img" />
                 </Link>
                 </div>
             </div>
         </section>
-
     );
 };
 

@@ -1,0 +1,43 @@
+.brands-container {
+  margin: 70px 0px;
+  // padding: 10rem 0;
+
+  img {
+    opacity: 0.5;
+  }
+
+  .col {
+    transition: all 0.2s;
+    &:hover {
+      transform: scale(1.05);
+      cursor: pointer;
+    }
+  }
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-wrapper {
+    transition-timing-function: linear !important;
+  }
+
+  .swiper-slide {
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .swiper-slide img {
+    display: block;
+
+    object-fit: cover;
+  }
+
+  .swiper {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

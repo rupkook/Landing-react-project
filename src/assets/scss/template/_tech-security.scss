@@ -1,0 +1,175 @@
+.tech-security {
+  background: var(--tech-section-bg);
+  color: var(--tech-text-color);
+  padding: 100px 0px;
+  font-family: var(--font-syne);
+
+  .bg-color {
+    background: var(--tech-primary-bg);
+    padding: 0px 5px;
+    border-radius: 15px;
+
+    line-height: 58px;
+  }
+  .title {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 58px;
+    margin-bottom: 24px;
+    color: var(--color-black3);
+
+    @media only screen and (max-width: 575.98px) {
+      font-size: 40px;
+      line-height: 50px;
+    }
+
+    @media #{$sm-mobile} {
+      font-size: 35px;
+      line-height: 45px;
+    }
+
+    @media only screen and (max-width: 375.98px) {
+    }
+  }
+
+  .desc {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 40px;
+  }
+
+  //   Right section
+  .thumbnail-img {
+    position: relative;
+    z-index: 0;
+    margin-left: 51px;
+    // margin-right: -14px;
+  }
+
+  .tech-btn {
+    @media only screen and (max-width: 1199.98px) {
+      font-size: 14px;
+    }
+    @media only screen and (max-width: 991.98px) {
+      font-size: 16px;
+    }
+  }
+
+  .top-button {
+    position: absolute;
+    z-index: 1;
+    margin-top: 0px;
+    margin-left: 68px;
+
+    @media only screen and (max-width: 1535.98px) {
+      margin-top: -0px;
+      margin-left: 67px;
+    }
+
+    @media only screen and (max-width: 1399.98px) {
+      margin-top: -6px;
+      margin-left: 28px;
+    }
+    @media only screen and (max-width: 1199.98px) {
+      margin-top: -12px;
+      margin-left: 13px;
+    }
+    @media only screen and (max-width: 991.98px) {
+      margin-top: -1px;
+      margin-left: 80px;
+    }
+    @media only screen and (max-width: 767.98px) {
+      margin-top: -8px;
+      margin-left: 28px;
+    }
+    @media only screen and (max-width: 575.98px) {
+      margin-top: -3px;
+      margin-left: 12px;
+    }
+  }
+
+  .bottom-button {
+    position: absolute;
+    z-index: 1;
+    margin-top: -54px;
+    margin-left: 500px;
+
+    @media only screen and (max-width: 1535.98px) {
+      margin-top: -52px;
+    }
+
+    @media only screen and (max-width: 1399.98px) {
+      margin-top: -54px;
+      margin-left: 409px;
+    }
+
+    @media only screen and (max-width: 1199.98px) {
+      margin-top: -45px;
+      margin-left: 314px;
+    }
+    @media only screen and (max-width: 991.98px) {
+      margin-top: -56px;
+      margin-left: 494px;
+    }
+    @media only screen and (max-width: 767.98px) {
+      margin-top: -49px;
+      margin-left: 395px;
+    }
+
+    @media only screen and (max-width: 575.98px) {
+      margin-top: -45px;
+      margin-left: 290px;
+    }
+    @media #{$sm-mobile} {
+      margin-top: -45px;
+      margin-left: 190px;
+    }
+
+    @media only screen and (max-width: 375.98px) {
+      margin-left: 130px;
+    }
+  }
+
+  .left-multi-buttons {
+    display: flex;
+    flex-direction: column;
+    row-gap: 14px;
+    @media only screen and (max-width: 1399.98px) {
+      row-gap: 10px;
+    }
+    @media only screen and (max-width: 991.98px) {
+      align-items: center;
+    }
+
+    .multi-buttons-inner {
+      display: flex;
+      column-gap: 24px;
+      flex-direction: row;
+
+      @media only screen and (max-width: 1399.98px) {
+        column-gap: 20px;
+      }
+
+      @media #{$sm-mobile} {
+        flex-direction: column;
+        gap: 10px;
+        column-gap: 10px;
+        justify-content: start;
+        align-items: center;
+      }
+    }
+  }
+
+  .right-multi-buttons {
+    display: flex;
+    flex-direction: column;
+
+    .multi-buttons-inner {
+      display: flex;
+      column-gap: 6px;
+    }
+  }
+}

@@ -1,0 +1,93 @@
+.strategies {
+  font-family: var(--font-inter);
+  color: var(--landing-text-color);
+
+  .title {
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 52px;
+    margin-bottom: 16px;
+    width: 78%;
+    color: var(--landing-text-color);
+
+    @media only screen and (max-width: 1399.98px) {
+      font-size: 41px;
+    }
+
+    @media only screen and (max-width: 1199.98px) {
+      width: 100%;
+    }
+
+    @media only screen and (max-width: 575.98px) {
+      font-size: 32px;
+      line-height: 42px;
+    }
+  }
+
+  .subtitle {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 40px;
+    width: 80%;
+
+    @media only screen and (max-width: 1399.98px) {
+      width: 84%;
+    }
+
+    @media only screen and (max-width: 1199.98px) {
+      width: 100%;
+    }
+  }
+
+  .btn-strategy {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2.8rem;
+    text-align: center;
+
+    color: #fff;
+
+    border-radius: 50px;
+    border: 1px solid #000;
+    background: #000;
+    border-radius: 16px;
+
+    padding: 10px 25px;
+  }
+
+  .btn-strategy:focus {
+    box-shadow: none;
+  }
+
+  .btn-strategy:hover {
+    background: var(--main-color);
+    color: black;
+  }
+
+  .strategies-right {
+    display: flex;
+
+    width: fit-content;
+
+    div {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      justify-content: center;
+
+      img {
+        border-radius: 10px;
+        transition: all 0.2s;
+      }
+
+      img:hover {
+        scale: 1.01;
+        cursor: pointer;
+      }
+    }
+  }
+}

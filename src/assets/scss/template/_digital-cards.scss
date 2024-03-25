@@ -23,36 +23,41 @@
         font-weight: 400;
         line-height: 46px;
 
-        @media #{$xxl-device} {
+        @media only screen and (max-width: 1535.98px) {
           font-size: 32px;
           line-height: 42px;
         }
-        @media #{$extra-device} {
-          font-size: 27px;
+        @media only screen and (max-width: 1399.98px) {
+          font-size: 24px;
           line-height: 37px;
         }
-        @media #{$lg-layout} {
-          font-size: 34px;
+        @media only screen and (max-width: 1199.98px) {
+          font-size: 31px;
           line-height: 44px;
         }
 
-        @media #{$md-layout} {
-          font-size: 26px;
+        @media only screen and (max-width: 991.98px) {
+          font-size: 24px;
+          line-height: 34px;
+        }
+        @media only screen and (max-width: 767.98px) {
+          font-size: 22px;
           line-height: 32px;
         }
 
         @media #{$sm-mobile} {
-          font-size: 24px;
+          font-size: 20px;
           line-height: 30px;
         }
 
-        @media #{$xs-mobile} {
+        @media only screen and (max-width: 375.98px) {
           font-size: 19px;
           line-height: 23px;
         }
 
         a {
           color: var(--digital-text-color);
+          text-decoration: none;
 
           &:hover {
             color: var(--digital-text-secondary);

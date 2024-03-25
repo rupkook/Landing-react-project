@@ -1,0 +1,112 @@
+.know-customers-2 {
+  font-family: var(--font-archivo);
+  margin: 40px 0;
+  color: var(--business-text-color);
+  img {
+    transition: all 0.2s;
+  }
+
+  .title {
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 70px;
+    margin-bottom: 20px;
+    color: var(--business-text-color);
+
+    @media only screen and (max-width: 1399.98px) {
+      font-size: 56px;
+      line-height: 66px;
+    }
+
+    @media only screen and (max-width: 991.98px) {
+      br {
+        display: none;
+      }
+    }
+
+    @media only screen and (max-width: 575.98px) {
+      font-size: 54px;
+      line-height: 64px;
+    }
+
+    @media #{$sm-mobile} {
+      font-size: 42px;
+      line-height: 52px;
+    }
+
+    @media only screen and (max-width: 375.98px) {
+    }
+  }
+
+  .sub-title {
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    width: 90%;
+
+    @media only screen and (max-width: 991.98px) {
+      br {
+        display: none;
+      }
+      width: 100%;
+    }
+  }
+
+  img {
+    transition: all 0.2s;
+    box-shadow: 0px 4.324763298034668px 64.87145233154297px 0px
+      rgba(0, 0, 0, 0.08);
+  }
+  .img1 {
+    margin-top: 70px;
+    margin-left: 76px;
+
+    @media only screen and (max-width: 1399.98px) {
+      margin-left: 0px;
+    }
+
+    @media only screen and (max-width: 991.98px) {
+      margin-left: 60px;
+    }
+
+    @media only screen and (max-width: 767.98px) {
+      margin-left: 0px;
+    }
+
+    @media only screen and (max-width: 575.98px) {
+    }
+
+    @media #{$sm-mobile} {
+    }
+
+    @media only screen and (max-width: 375.98px) {
+    }
+  }
+
+  .inner-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @media only screen and (max-width: 991.98px) {
+      margin-left: -106px;
+    }
+
+    @media only screen and (max-width: 767.98px) {
+      flex-direction: row;
+      margin-left: 0px;
+      margin-top: 20px;
+    }
+
+    @media only screen and (max-width: 575.98px) {
+    }
+
+    @media #{$sm-mobile} {
+    }
+
+    @media only screen and (max-width: 375.98px) {
+    }
+  }
+}

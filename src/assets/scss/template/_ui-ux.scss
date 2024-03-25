@@ -1,0 +1,211 @@
+.ui-ux {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  font-family: var(--font-syne);
+  color: var(--tech-text-color);
+
+  .title {
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 46px;
+    margin-bottom: 20px;
+    color: var(--color-black3);
+
+    @media only screen and (max-width: 1399.98px) {
+      font-size: 24px;
+      line-height: 34px;
+    }
+
+    @media only screen and (max-width: 991.98px) {
+      font-size: 36px;
+    }
+    @media only screen and (max-width: 767.98px) {
+      font-size: 22px;
+      line-height: 32px;
+    }
+    @media only screen and (max-width: 575.98px) {
+      font-size: 16px;
+      line-height: 26px;
+      margin-bottom: 10px;
+    }
+
+    .bg-color {
+      background: var(--tech-primary-bg);
+      border-radius: 15px;
+      padding: 0px 2px;
+    }
+  }
+
+  .desc {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 56px;
+    @media only screen and (max-width: 1399.98px) {
+      line-height: 26px;
+      margin-bottom: 15px;
+    }
+    @media only screen and (max-width: 1399.98px) {
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 18px;
+      // margin-bottom: 56px;
+    }
+    @media only screen and (max-width: 991.98px) {
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 25px;
+      margin-bottom: 20px;
+    }
+    @media only screen and (max-width: 767.98px) {
+      font-size: 14px;
+
+      line-height: 20px;
+      margin-bottom: 10px;
+    }
+    @media only screen and (max-width: 575.98px) {
+      font-size: 16px;
+
+      line-height: 20px;
+    }
+
+    .bg-color {
+      background: var(--tech-primary-bg);
+      border-radius: 15px;
+      padding: 0px 2px;
+    }
+  }
+
+  .ui-ux-btn {
+    color: var(--color-black3);
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    display: inline-flex;
+    gap: 10px;
+
+    &:hover {
+      cursor: pointer;
+      // box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.08);
+      padding: 0px 12px;
+      color: var(--color-ship-gray);
+    }
+
+    @media only screen and (max-width: 575.98px) {
+      font-size: 14px;
+    }
+  }
+
+  .left-section {
+    .left-card {
+      border-radius: 20px;
+      background: #fef4c5;
+      display: flex;
+      justify-content: space-between;
+      padding-right: 0;
+
+      @media #{$sm-mobile} {
+        flex-direction: column;
+      }
+
+      .info {
+        width: 60%;
+        padding-top: 40px;
+        padding-left: 40px;
+
+        padding-bottom: 0;
+
+        @media only screen and (max-width: 1199.98px) {
+          padding-top: 20px;
+          padding-left: 20px;
+
+          padding-bottom: 0;
+        }
+        @media only screen and (max-width: 991.98px) {
+          padding-top: 40px;
+          padding-left: 40px;
+        }
+        @media only screen and (max-width: 767.98px) {
+          padding-top: 20px;
+          padding-left: 20px;
+          padding-right: 20px;
+          width: 100%;
+        }
+      }
+
+      .info-cover {
+        @media #{$sm-mobile} {
+          margin-left: 46px;
+          margin-top: -92px;
+        }
+
+        @media only screen and (max-width: 375.98px) {
+          margin-left: 46px;
+          margin-top: -70px;
+        }
+      }
+    }
+
+    .left-bottom {
+      background: #dbfed6;
+    }
+  }
+
+  .right-section {
+    background: #e6d9fc;
+    border-radius: 20px;
+    height: 100%;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 20px;
+    width: 48%;
+
+    @media only screen and (max-width: 1199.98px) {
+      padding-top: 20px;
+      padding-left: 20px;
+      padding-right: 20px;
+
+      margin-left: 0px;
+    }
+
+    @media only screen and (max-width: 991.98px) {
+      width: 100%;
+      margin-top: 15px;
+      padding-top: 40px;
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+
+    @media only screen and (max-width: 767.98px) {
+      width: 100%;
+      margin-top: 15px;
+      padding-top: 20px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    .thumbnail {
+      margin-bottom: -22px;
+
+      @media only screen and (max-width: 1399.98px) {
+        margin-bottom: -19px;
+      }
+      @media only screen and (max-width: 991.98px) {
+        margin-bottom: -22px;
+      }
+      @media only screen and (max-width: 767.98px) {
+        margin-bottom: -18px;
+      }
+      @media only screen and (max-width: 575.98px) {
+        margin-bottom: -16px;
+      }
+    }
+  }
+}

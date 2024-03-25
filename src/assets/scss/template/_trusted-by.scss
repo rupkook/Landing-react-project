@@ -1,0 +1,121 @@
+.trusted-by {
+  margin: 100px 0px;
+  color: var(--color-black3);
+  font-family: var(--font-archivo);
+
+  .items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 40px;
+
+    @media only screen and (max-width: 1199.98px) {
+      gap: 0px;
+    }
+
+    @media only screen and (max-width: 991.98px) {
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .title {
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 34px;
+      width: 21%;
+
+      @media only screen and (max-width: 1399.98px) {
+        font-size: 17px;
+        line-height: 24px;
+      }
+
+      @media only screen and (max-width: 991.98px) {
+        width: 100%;
+        font-size: 22px;
+        line-height: 34px;
+      }
+    }
+
+    .star-section {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+      margin-left: 10rem;
+
+      @media only screen and (max-width: 991.98px) {
+        margin-left: 0rem;
+        align-items: center;
+      }
+
+      .star {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+
+      .title-1 {
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 28px;
+        margin-top: 8px;
+      }
+
+      .title-2 {
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+      }
+
+      .title-3 {
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 26px; /* 185.714% */
+        text-decoration-line: underline;
+
+        &:hover {
+          cursor: pointer;
+          color: var(--saas-btn-color);
+        }
+      }
+    }
+
+    .mid-section {
+      display: flex;
+      flex-direction: column;
+      gap: 22px;
+      align-items: center;
+      justify-content: center;
+
+      .desc {
+        font-family: var(--font-oxygen);
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 28px;
+
+        @media only screen and (max-width: 1399.98px) {
+          font-size: 16px;
+          font-weight: 900;
+        }
+        @media only screen and (max-width: 1199.98px) {
+          font-size: 13px;
+          font-weight: 900;
+        }
+        @media only screen and (max-width: 991.98px) {
+          font-size: 18px;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+}

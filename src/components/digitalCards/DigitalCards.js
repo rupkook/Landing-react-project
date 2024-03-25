@@ -3,14 +3,14 @@ import { Link } from 'react-router-dom';
 
 const DigitalCards = () => {
     return (
-        <section class="digital-cards section--spacing">
-        <div class="digital--container">
+        <section className="digital-cards section--spacing">
+        <div className="digital--container">
             <div>
             <div
-                class="row g-5 justify-content-between align-items-center card-section"
+                className="row g-5 justify-content-between align-items-center card-section"
             >
                 <div
-                class="col-12 col-md-6 col-xl-4 card-thumb"
+                className="col-12 col-md-6 col-xl-4 card-thumb"
                 data-sal="slide-up"
                 data-sal-duration="800"
                 >
@@ -20,12 +20,12 @@ const DigitalCards = () => {
                 />
 
                 <span
-                    ><Link href="#">We have unparalleled experience applying analytics</Link>
+                    ><Link >We have unparalleled experience applying analytics</Link>
                 </span>
                 </div>
 
                 <div
-                class="col-12 col-md-6 col-xl-4 card-thumb"
+                className="col-12 col-md-6 col-xl-4 card-thumb"
                 data-sal="slide-up"
                 data-sal-duration="800"
                 data-sal-delay="300"
@@ -35,11 +35,11 @@ const DigitalCards = () => {
                     alt=""
                 />
 
-                <span><Link href="#">Create your project with professionals</Link> </span>
+                <span><Link >Create your project with professionals</Link> </span>
                 </div>
 
                 <div
-                class="col-12 col-md-6 col-xl-4 card-thumb"
+                className="col-12 col-md-6 col-xl-4 card-thumb"
                 data-sal="slide-up"
                 data-sal-duration="800"
                 data-sal-delay="400"
@@ -49,7 +49,7 @@ const DigitalCards = () => {
                     alt=""
                 />
                 <span
-                    ><Link href="#">Digital competitive analysis with out Experts</Link>
+                    ><Link >Digital competitive analysis with out Experts</Link>
                 </span>
                 </div>
             </div>

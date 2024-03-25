@@ -2,7 +2,7 @@
   color: var(--digital-text-color);
   font-family: var(--font-archivo);
 
-  .container {
+  .soe-container {
     .top-section {
       .title {
         font-family: var(--font-archivo);
@@ -12,14 +12,25 @@
         line-height: 64px; /* 115.625% */
         text-transform: capitalize;
 
-        @media #{$xxl-device} {
+        @media only screen and (max-width: 1535.98px) {
           font-size: 52px;
           line-height: 62px;
         }
 
-        @media #{$lg-layout} {
-          font-size: 42px;
+        @media only screen and (max-width: 1199.98px) {
+          font-size: 39px;
           line-height: 52px;
+        }
+
+        @media only screen and (max-width: 991.98px) {
+          font-size: 37px;
+          line-height: 47px;
+          margin-bottom: 10px;
+        }
+        @media only screen and (max-width: 767.98px) {
+          font-size: 22px;
+          line-height: 32px;
+          margin-bottom: 10px;
         }
 
         @media #{$sm-mobile} {
@@ -27,9 +38,9 @@
           line-height: 42px;
         }
 
-        @media #{$xs-mobile} {
-          font-size: 27px;
-          line-height: 37px;
+        @media only screen and (max-width: 375.98px) {
+          font-size: 26px;
+          line-height: 36px;
         }
       }
       .desc {
@@ -40,10 +51,20 @@
         font-weight: 400;
         line-height: 30px; /* 150% */
         text-transform: capitalize;
-
-        @media #{$sm-layout} {
+        @media only screen and (max-width: 1199.98px) {
+          font-size: 18px;
+        }
+        @media only screen and (max-width: 767.98px) {
           font-size: 16px;
           line-height: 26px;
+        }
+        @media only screen and (max-width: 575.98px) {
+          font-size: 15px;
+          line-height: 25px;
+        }
+        @media only screen and (max-width: 375.98px) {
+          font-size: 13px;
+          line-height: 23px;
         }
       }
     }
@@ -52,7 +73,7 @@
       position: relative;
       z-index: 0;
 
-      @media #{$md-layout} {
+      @media only screen and (max-width: 991.98px) {
         margin-top: 40px;
       }
 
@@ -69,45 +90,68 @@
       .icon {
         position: absolute;
         z-index: 1;
-        margin-top: -470px;
-        left: 42%;
+        margin-top: -480px;
+        left: 43.6%;
 
-        @media #{$xxl-device} {
+        @media only screen and (max-width: 1535.98px) {
           margin-top: -410px;
         }
 
-        @media #{$extra-device} {
+        @media only screen and (max-width: 1399.98px) {
           margin-top: -360px;
         }
 
-        @media #{$lg-layout} {
-          margin-top: -320px;
+        @media only screen and (max-width: 1199.98px) {
+          margin-top: -300px;
         }
 
-        @media #{$md-layout} {
-          margin-top: -210px;
+        @media only screen and (max-width: 1199.98px) {
           img {
-            width: 120px;
+            width: 160px;
+            height: 160px;
           }
         }
 
-        @media #{$sm-layout} {
-          margin-top: -150px;
+        @media only screen and (max-width: 991.98px) {
+          margin-top: -218px;
           img {
-            width: 90px;
+            width: 125px;
+            height: 125px;
+          }
+        }
+
+        @media only screen and (max-width: 767.98px) {
+          margin-top: -162px;
+          img {
+            width: 100px;
+            height: 100px;
+          }
+        }
+
+        @media only screen and (max-width: 575.98px) {
+          margin-top: -146px;
+          margin-left: -11px;
+          img {
+            width: 95px;
+            height: 95px;
           }
         }
 
         @media #{$sm-mobile} {
-          margin-top: -114px;
-          left: 41%;
+          margin-top: -130px;
+          left: 43.5%;
           img {
-            width: 70px;
+            width: 75px;
+            height: 75px;
           }
         }
 
-        @media #{$xs-mobile} {
+        @media only screen and (max-width: 375.98px) {
           margin-top: -100px;
+          img {
+            width: 68px;
+            height: 68px;
+          }
         }
 
         animation: spin 8s infinite linear;
